@@ -6,11 +6,13 @@ import Link from "next/link";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Menu from "@/components/menu/Menu";
+import Header from "@/components/header/Header";
 
 export default function Home() {
   return (
     <main>
       <Menu />
+      <Header />
     </main>
   );
 }
