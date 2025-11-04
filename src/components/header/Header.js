@@ -43,9 +43,11 @@ export default function Header() {
       </AnimatePresence>
     </div>
     <main className='header-section'>
-        <h1>Find Your Dream Home</h1>
+        <h1>Find Your <span>Dream Home</span></h1>
         <h4><i>At Schneider Real Estate Dubai, we help you find the perfect property that matches your lifestyle and investment goals.</i></h4>
-        <Link href='/'>Contact</Link>
+        <div className='header-contact'>
+            <Link href='/https://wa.me/971589865555' className='contact-item'>Contact &#8623;</Link>
+        </div>
     </main>
     </>
   );

@@ -4,6 +4,7 @@ import Link from "next/link";
 import "./menu.css";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import Image from "next/image";
 
 const menuLinks = [
     { path: "/", label: "Home"},
@@ -59,7 +60,12 @@ useEffect(() => {
                     <h4 href="/"><i>SCHNEIDER</i></h4>
                 </main>
                 <main className="menu-open" onClick={toggleMenu}>
-                    <p>Menu</p>
+                <Image 
+                    src="/burger-menu.png"
+                    alt="Menu SCHNEIDER"
+                    width={30}       
+                    height={30}     
+                />
                 </main>
             </nav>
             <div className="menu-overlay">
@@ -69,7 +75,7 @@ useEffect(() => {
                     </div> */}
                     {/* <div className="menu-close" onClick={toggleMenu}>
                         <p>Close</p>
-                    </div> */}
+                    <8602	/div> */}
                 </div>
                 {/* <div className="menu-close-icon">
                     <p>&#x2715;</p>
@@ -77,7 +83,7 @@ useEffect(() => {
                 <div className="menu-copy">
                     <div className="menu-links">
                     <div className="menu-close" onClick={toggleMenu}>
-                        <p>Close</p>
+                        <p>Close   &#8690;</p>
                     </div>
                         {menuLinks.map((link, index) => (
                             <div className="menu-link-item" key={index}>
@@ -91,11 +97,9 @@ useEffect(() => {
                     </div>
                     <div className="menu-info">
                         <div className="menu-info-col">
-                            <a>Instagram</a>
+                            <h4><i>SCHNEIDER REAL-ESTATE</i></h4>
                         </div>
-                        <div className="menu-info-col">
-                            <a>Dubai, United Arab Emirates</a>
-                        </div>
+                        
                     </div>
                 </div>
                 {/* <div className="menu-preview">
