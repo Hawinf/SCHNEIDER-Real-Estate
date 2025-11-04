@@ -56,7 +56,7 @@ useEffect(() => {
         <main className="menu-container" ref={container}>
             <nav className="menu-bar">
                 <main className="menu-logo">
-                    <Link href="/"><b>SCHNEIDER</b></Link>
+                    <h4 href="/"><i>SCHNEIDER</i></h4>
                 </main>
                 <main className="menu-open" onClick={toggleMenu}>
                     <p>Menu</p>
