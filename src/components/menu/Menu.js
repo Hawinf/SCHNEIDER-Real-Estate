@@ -56,7 +56,7 @@ useEffect(() => {
         <main className="menu-container" ref={container}>
             <nav className="menu-bar">
                 <main className="menu-logo">
-                    <Link href="/">SCHNEIDER LOGO</Link>
+                    <Link href="/"><b>SCHNEIDER</b></Link>
                 </main>
                 <main className="menu-open" onClick={toggleMenu}>
                     <p>Menu</p>
@@ -64,18 +64,21 @@ useEffect(() => {
             </nav>
             <div className="menu-overlay">
                 <div className="menu-overlay-bar">
-                    <div className="menu-logo">
+                    {/* <div className="menu-logo">
                         <Link href="/">SCHNEIDER</Link>
-                    </div>
+                    </div> */}
+                    {/* <div className="menu-close" onClick={toggleMenu}>
+                        <p>Close</p>
+                    </div> */}
+                </div>
+                {/* <div className="menu-close-icon">
+                    <p>&#x2715;</p>
+                </div> */}
+                <div className="menu-copy">
+                    <div className="menu-links">
                     <div className="menu-close" onClick={toggleMenu}>
                         <p>Close</p>
                     </div>
-                </div>
-                <div className="menu-close-icon">
-                    <p>&#x2715;</p>
-                </div>
-                <div className="menu-copy">
-                    <div className="menu-links">
                         {menuLinks.map((link, index) => (
                             <div className="menu-link-item" key={index}>
                                 <div className="menu-link-item-holder" onClick={toggleMenu}>
@@ -91,13 +94,13 @@ useEffect(() => {
                             <a>Instagram</a>
                         </div>
                         <div className="menu-info-col">
-                            <a>Dubai AE</a>
+                            <a>Dubai, United Arab Emirates</a>
                         </div>
                     </div>
                 </div>
-                <div className="menu-preview">
-                    <p>VIEW SCHNEIDER</p>
-                </div>
+                {/* <div className="menu-preview">
+                    <p>FIND OUT SCHNEIDER</p>
+                </div> */}
             </div>
         </main>
     );
