@@ -157,7 +157,7 @@ export default function Header() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrent(prev => (prev + 1) % slides.length);
-    }, 4000); // change every 4 seconds
+    }, 5000); // change every 4 seconds
     return () => clearInterval(timer);
   }, []);
 
@@ -174,7 +174,7 @@ export default function Header() {
           exit={{ opacity: 0, scale: 0.97 }}
           transition={{
             type: 'tween',
-            duration: 1.8,
+            duration: 2,
             ease: [0.45, 0, 0.55, 1],
           }}
         />
