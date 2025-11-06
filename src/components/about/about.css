@@ -1,0 +1,10 @@
+.about-secton {
+    margin: 70px 50px;
+}
+.about-secton h3 {
+    text-decoration: underline;
+}
+.about-secton p {
+    letter-spacing: 3px;
+    margin-top: 10px;
+}

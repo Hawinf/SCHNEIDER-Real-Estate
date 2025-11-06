@@ -41,14 +41,16 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: 70px;
     font-weight: 700;
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke-width: 2px;
+    color: black;
 }
 .header-section h1 span {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 70px;
-    -webkit-text-fill-color: #cf5b45;
+    -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 1px;
     color: #ebd8d8;
-    margin-top: 30px;
 }
 .header-section h4 {
     letter-spacing: 2px;
@@ -58,7 +60,7 @@
     
 }
 .header-contact .contact-item {
-    border: 2px solid #cf5b45;
+    border: 2px solid #fff;
     border-radius: 5px;
     /* width: 80px; */
     padding: 7px 10px;

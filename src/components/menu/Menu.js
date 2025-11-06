@@ -6,6 +6,9 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 
+import AOS from "aos";
+  import "aos/dist/aos.css";
+
 const menuLinks = [
     { path: "/", label: "Home"},
     { path: "about", label: "About"},
@@ -44,7 +47,7 @@ useEffect(() => {
     } else {
         tl.current.reverse();
     }
-}, [isMenuOpen]);``
+}, [isMenuOpen]);
 
 
 
@@ -56,10 +59,10 @@ useEffect(() => {
     return (
         <main className="menu-container" ref={container}>
             <nav className="menu-bar">
-                <main className="menu-logo">
+                <main className="menu-logo" data-aos="slide-right">
                     <h4 href="/"><i>SCHNEIDER</i></h4>
                 </main>
-                <main className="menu-open" onClick={toggleMenu}>
+                <main className="menu-open" onClick={toggleMenu} data-aos="slide-left">
                 <Image 
                     src="/burger-menu.png"
                     alt="Menu SCHNEIDER"

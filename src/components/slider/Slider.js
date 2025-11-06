@@ -27,7 +27,7 @@ export default function Slider() {
   ];
 
   return (
-    <div className="sliderWrapper">
+    <div className="sliderWrapper" data-aos="slide-right">
       {/* Main Slider */}
       <Swiper
         onSwiper={(swiper) => (mainSwiperRef.current = swiper)}

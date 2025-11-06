@@ -1,0 +1,19 @@
+.colummenu-section {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding: 15px;
+}
+.colummenu-item {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media (max-width:768px) {
+    .colummenu-section {
+        padding: 10px;
+    }
+    .colummenu-item {
+        font-size: 13px;
+    }
+}
