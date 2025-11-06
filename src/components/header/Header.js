@@ -46,7 +46,8 @@ export default function Header() {
         <h1 data-aos="slide-right">Find Your <span>Dream Home</span></h1>
         <h4 data-aos="slide-left"><i>At Schneider Real Estate Dubai, we help you find the perfect property that matches your lifestyle and investment goals.</i></h4>
         <div className='header-contact' data-aos="slide-right">
-            <Link href='/https://wa.me/971589865555' className='contact-item'>Contact &#8623;</Link>
+            {/* <Link href='/https://wa.me/971589865555' className='contact-item'>Contact &#8623;</Link> */}
+            <input placeholder='FIND PROPERTIES &#10596;' className='find-properties'></input>
         </div>
     </main>
     </>
