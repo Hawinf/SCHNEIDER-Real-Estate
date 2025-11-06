@@ -16,7 +16,14 @@
     letter-spacing: 3px;
     margin-top: 10px;
 }
-
+.why-us {
+    margin: 70px 50px;
+    text-align: right;
+}
+.why-us p {
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
 
 @media (max-width:768px) {
     .about-secton {
