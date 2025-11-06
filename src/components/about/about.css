@@ -8,3 +8,13 @@
     letter-spacing: 3px;
     margin-top: 10px;
 }
+
+
+@media (max-width:768px) {
+    .about-secton {
+        margin: 40px 23px;
+    }
+    .about-secton p {
+        letter-spacing: 1px;
+    }
+}
