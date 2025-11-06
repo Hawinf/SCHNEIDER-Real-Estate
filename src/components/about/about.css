@@ -1,8 +1,16 @@
 .about-secton {
     margin: 70px 50px;
 }
+.about-secton h1 {
+    font-size: 17px;
+}
 .about-secton h3 {
     text-decoration: underline;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: #ebd8d8;
 }
 .about-secton p {
     letter-spacing: 3px;

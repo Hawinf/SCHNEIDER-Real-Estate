@@ -60,7 +60,7 @@ useEffect(() => {
         <main className="menu-container" ref={container}>
             <nav className="menu-bar">
                 <main className="menu-logo" data-aos="slide-right">
-                    <h4 href="/"><i>SCHNEIDER</i></h4>
+                    <h4 href="/"><i>SCHNEIDER&reg;</i></h4>
                 </main>
                 <main className="menu-open" onClick={toggleMenu} data-aos="slide-left">
                 <Image 
