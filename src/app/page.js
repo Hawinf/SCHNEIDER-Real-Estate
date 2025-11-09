@@ -10,6 +10,7 @@ import Header from "@/components/header/Header";
 import Colummenu from "@/components/colummenu/Colummenu";
 import About from "@/components/about/About";
 import Slider from "@/components/slider/Slider";
+import Latest from "@/components/latest/Latest";
 
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -26,6 +27,7 @@ export default function Home() {
       <Colummenu />
       <About />
       <Slider />
+      <Latest />
     </main>
   );
 }

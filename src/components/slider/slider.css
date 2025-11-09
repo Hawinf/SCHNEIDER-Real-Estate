@@ -1,3 +1,13 @@
+.slider-section .slider-tittle1 {
+    font-size: 17px;
+}
+.slider-section .slider-tittle2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: #ebd8d8;
+}
 .sliderWrapper {
     position: relative;
     display: flex;

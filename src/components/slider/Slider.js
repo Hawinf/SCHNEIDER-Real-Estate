@@ -27,69 +27,74 @@ export default function Slider() {
   ];
 
   return (
-    <div className="sliderWrapper" data-aos="slide-right">
-      {/* Main Slider */}
-      <Swiper
-        onSwiper={(swiper) => (mainSwiperRef.current = swiper)}
-        modules={[Navigation, Controller, Autoplay]}
-        loop={true}
-        speed={1000}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        }}
-        className="main-slider"
-        watchSlidesProgress
-        grabCursor
-      >
-        {slides.map((slide) => (
-          <SwiperSlide key={slide.id}>
-            <div className="slideBg">
-              <Image
-                src={slide.img}
-                alt={slide.title}
-                fill
-                className="slideImage"
-                priority
-              />
-              <div className="caption">
-                <h2>{slide.title}</h2>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
+    <main className="slider-section">
+        <h3 className="slider-tittle1">CHOOSE YOUR</h3>
+        <h1 className="slider-tittle2">LIFESTYLE</h1>
+        <div className="sliderWrapper" data-aos="slide-right">
+        {/* Main Slider */}
+        
+        <Swiper
+            onSwiper={(swiper) => (mainSwiperRef.current = swiper)}
+            modules={[Navigation, Controller, Autoplay]}
+            loop={true}
+            speed={1000}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            }}
+            className="main-slider"
+            watchSlidesProgress
+            grabCursor
+        >
+            {slides.map((slide) => (
+            <SwiperSlide key={slide.id}>
+                <div className="slideBg">
+                <Image
+                    src={slide.img}
+                    alt={slide.title}
+                    fill
+                    className="slideImage"
+                    priority
+                />
+                <div className="caption">
+                    <h2>{slide.title}</h2>
+                </div>
+                </div>
+            </SwiperSlide>
+            ))}
 
-        <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div>
-      </Swiper>
+            <div className="swiper-button-next"></div>
+            <div className="swiper-button-prev"></div>
+        </Swiper>
 
-      {/* Navigation Slider */}
-      <Swiper
-        onSwiper={(swiper) => (navSwiperRef.current = swiper)}
-        modules={[Controller]}
-        loop={true}
-        slidesPerView={5}
-        centeredSlides={true}
-        direction="vertical"
-        spaceBetween={5}
-        slideToClickedSlide
-        className="nav-slider"
-      >
-        {slides.map((slide) => (
-          <SwiperSlide key={slide.id}>
-            <div className="navThumb">
-              <Image
-                src={slide.img}
-                alt={slide.title}
-                width={100}
-                height={100}
-                className="navImage"
-              />
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
+        {/* Navigation Slider */}
+        <Swiper
+            onSwiper={(swiper) => (navSwiperRef.current = swiper)}
+            modules={[Controller]}
+            loop={true}
+            slidesPerView={5}
+            centeredSlides={true}
+            direction="vertical"
+            spaceBetween={5}
+            slideToClickedSlide
+            className="nav-slider"
+        >
+            {slides.map((slide) => (
+            <SwiperSlide key={slide.id}>
+                <div className="navThumb">
+                <Image
+                    src={slide.img}
+                    alt={slide.title}
+                    width={100}
+                    height={100}
+                    className="navImage"
+                />
+                </div>
+            </SwiperSlide>
+            ))}
+        </Swiper>
+        </div>
+    </main>
   );
 }
