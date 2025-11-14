@@ -4,7 +4,7 @@
 }
 .about-secton .about-left {
   width: 50%;
-  margin: 30px;
+  margin: 20px;
 }
 .about-secton .about-right {
   width: 50%;
@@ -151,8 +151,9 @@ input:checked + label + .slide {
     margin-top: 10px;
 }
 .why-us {
-    margin: 70px 50px;
-    text-align: right;
+    padding: 70px 50px;
+    background-color: white;
+    color: black;
 }
 .why-us p {
     letter-spacing: 3px;
@@ -405,7 +406,6 @@ input:checked + label + .slide {
     }
     .about-secton .about-left {
       width: 90%;
-      /* margin: 30px; */
     }
     .about-secton .about-right {
       width: 100%;
