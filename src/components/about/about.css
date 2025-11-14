@@ -120,19 +120,19 @@ input:checked + label + .slide {
 }
 
 .bg1 {
-  background-image: url(https://images.unsplash.com/photo-1422806310414-91469fe4977e);
+  background-image: url('/header1.jpg');
 }
 .bg2 {
-  background-image: url(https://images.unsplash.com/photo-1490020641477-3b0e96306b9a);
+  background-image: url("/header2.jpg");
 }
 .bg3 {
-  background-image: url(https://images.unsplash.com/photo-1512529111457-3e8a595ef8e9);
+  background-image: url("/header3.jpg");
 }
 .bg4 {
-  background-image: url(https://images.unsplash.com/photo-1504700610630-ac6aba3536d3);
+  background-image: url("/header4.jpg");
 }
 .bg5 {
-  background-image: url(https://images.unsplash.com/reserve/wPCyys8TPCHY3GXm2N2D_ssp_inthewoods_1);
+  background-image: url("/header3.jpg");
 }
 
 /* TRY SLIDER */
@@ -147,8 +147,9 @@ input:checked + label + .slide {
     color: #ebd8d8;
 }
 .about-secton p {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-top: 10px;
+    font-family: 'sans-serif';
 }
 .why-us {
     padding: 70px 50px;
@@ -156,8 +157,9 @@ input:checked + label + .slide {
     color: black;
 }
 .why-us p {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     margin-top: 10px;
+    font-family: 'sans-serif';
 }
 
 /* SERVICE SECTION START */
@@ -406,6 +408,7 @@ input:checked + label + .slide {
     }
     .about-secton .about-left {
       width: 90%;
+      margin-bottom: 70px;
     }
     .about-secton .about-right {
       width: 100%;
