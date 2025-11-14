@@ -10,6 +10,41 @@ const About = () => {
                 <h3 data-aos="slide-right"><i>DRIVEN BY TRUST, DEFINED BY RESULTS</i></h3>
                 <p data-aos="slide-left">At Schneider Real Estate, we believe finding the perfect home is more than just a transaction—it’s a journey. Our experienced team is here to guide you every step of the way, helping you discover a place where you feel truly comfortable and at home. Whether you’re buying, renting, or investing, we provide personalized support, expert market insights, and practical advice to make your real estate experience smooth and stress-free. With years of experience in the UAE property market, we are committed to helping you make informed decisions and ensuring that your move is seamless—from the first viewing to settling into your new home. At Schneider Real Estate, your comfort and satisfaction are our top priority.</p>
             </nav>
+            <nav className="about-right">
+            <div className="sliderContainer">
+
+<input type="radio" id="trigger1" name="slider" />
+<label htmlFor="trigger1">
+  <span className="sr-only">Slide 1 of 5</span>
+</label>
+<div className="slide bg1"></div>
+
+<input type="radio" id="trigger2" name="slider" defaultChecked autoFocus />
+<label htmlFor="trigger2">
+  <span className="sr-only">Slide 2 of 5</span>
+</label>
+<div className="slide bg2"></div>
+
+<input type="radio" id="trigger3" name="slider" />
+<label htmlFor="trigger3">
+  <span className="sr-only">Slide 3 of 5</span>
+</label>
+<div className="slide bg3"></div>
+
+<input type="radio" id="trigger4" name="slider" />
+<label htmlFor="trigger4">
+  <span className="sr-only">Slide 4 of 5</span>
+</label>
+<div className="slide bg4"></div>
+
+<input type="radio" id="trigger5" name="slider" />
+<label htmlFor="trigger5">
+  <span className="sr-only">Slide 5 of 5</span>
+</label>
+<div className="slide bg5"></div>
+
+</div>
+            </nav>
         </main>
         <main className="service-section">
             <h1 className="service-tittle">SERVICES</h1>

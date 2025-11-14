@@ -27,7 +27,7 @@ export default function Home() {
       <Colummenu />
       <About />
       <Slider />
-      <Latest />
+      {/* <Latest /> */}
     </main>
   );
 }
