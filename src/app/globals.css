@@ -46,3 +46,8 @@ a {
   src: url("/fonts/JosefinSans-Regular.ttf") format("truetype");
   font-weight: 400;
 }
+@font-face {
+  font-family: "MeaCulpa";
+  src: url("/fonts/MeaCulpa-Regular.ttf") format("truetype");
+  font-weight: 400;
+}

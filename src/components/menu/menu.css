@@ -1,3 +1,12 @@
+.menu-logo h4 {
+    font-family: 'sans-serif';
+    line-height: 10px;
+}
+.menu-logo p {
+    font-family: 'MeaCulpa';
+    font-size: 11px;
+    text-align: center;
+}
 .menu-bar,
 .menu-overlay {
     position: fixed;

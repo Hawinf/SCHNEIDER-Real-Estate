@@ -138,6 +138,8 @@ input:checked + label + .slide {
 /* TRY SLIDER */
 .about-secton h1 {
     font-size: 17px;
+    font-family: 'sans-serif';
+    margin-bottom: 10px;
 }
 .about-secton h3 {
     font-family: 'Bebas Neue', sans-serif;
@@ -226,7 +228,7 @@ input:checked + label + .slide {
     --cards-grid-rows: var(--img-w) auto;
     --cards-grid-gap: 2rem;
     --cards-footer-justify: center;
-  
+    font-family: 'sans-serif';
     grid-area: 1/1;
     display: grid;
     place-items: center; 
