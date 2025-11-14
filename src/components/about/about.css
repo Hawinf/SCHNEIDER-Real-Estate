@@ -417,9 +417,6 @@ input:checked + label + .slide {
     .about-secton p {
         letter-spacing: 1px;
     }
-    .why-us {
-        margin: 40px 23px;
-    }
     .why-us p {
         letter-spacing: 1px;
     }
